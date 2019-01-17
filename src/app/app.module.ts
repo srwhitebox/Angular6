@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './Products.Component';
 import { ProductService } from './product.service';
+import { RatingComponent} from './rating.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ProductsComponent
+    AppComponent, ProductsComponent, RatingComponent
   ],
   imports: [
     BrowserModule,
